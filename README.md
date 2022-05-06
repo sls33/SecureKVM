@@ -1,3 +1,8 @@
+# SecureKVM
+## Introduction
+SecureKVM is a branch of SecMML that focuses on enabling secure and efficient inference (or training) for key-value models. Currently, we only support key-value models like **Markov Model** and **Decision Tree Model**.
+
+## Running
 ### Network Configuration
 
 ##### Default setting
@@ -174,3 +179,12 @@ choosing different secget protocol by param  USING_BASIC and  USING_FOLD.
 ./run_Markov_eval.sh n-1
 ```
 
+## Help
+
+Any question, please contact 19212010008@fudan.edu.cn.
+
+## Contributor
+
+**Faculty**: Prof. Weili Han
+
+**Students**: Haoqi Wu (Graduate Student), Zifeng Jiang (Graduate Student), Wenqiang Ruan (Ph.D Candidate), Shuyu Chen (Graduate Student), Xinyu Tu (Graduate Student), Zhexuan Wang (Graduate Student), Lushan Song (Ph.D Candidate), Dingyi Tang (Post Graduate Student)
