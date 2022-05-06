@@ -1,0 +1,17 @@
+### Config for input file <datasets/pwds-of-diff-len/rockyou_all_train.txt> on Tue Apr  5 20:33:25 2022
+### with the following settings:
+# -alphabet abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+# -alphabetsize 62 
+# -ngram 3 
+# -maxLevel 11 
+# -verbose 0 
+# - Selected smoothing: additive
+#	- delta:
+#	  - IP: 1; CP: 1; EP: 1; LN: 0;
+#	- levelAdjustFactor:
+#	  - IP: 250; CP: 2; EP: 250; LN: 1;
+# -cpout mpc_omen/models/rockyou_3_gram/CP 
+# -ipout mpc_omen/models/rockyou_3_gram/IP 
+# -epout mpc_omen/models/rockyou_3_gram/EP 
+# -lenout mpc_omen/models/rockyou_3_gram/LN
+# -input datasets/pwds-of-diff-len/rockyou_all_train.txt

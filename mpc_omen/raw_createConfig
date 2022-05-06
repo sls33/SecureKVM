@@ -1,0 +1,17 @@
+### Config for input file <mpc_omen/pwd_data/pwd.txt> on Wed Jan 27 15:28:14 2021
+### with the following settings:
+# -alphabet 0123456789
+# -alphabetsize 10 
+# -ngram 3 
+# -maxLevel 11 
+# -verbose 0 
+# - Selected smoothing: additive
+#	- delta:
+#	  - IP: 1; CP: 1; EP: 1; LN: 0;
+#	- levelAdjustFactor:
+#	  - IP: 250; CP: 2; EP: 250; LN: 1;
+# -cpout CP 
+# -ipout IP 
+# -epout EP 
+# -lenout LN
+# -input mpc_omen/pwd_data/pwd.txt

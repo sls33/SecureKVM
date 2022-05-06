@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="safety <= 1.5\nentropy = 1.238\nsamples = 1209\nvalue = [834, 274, 51, 50]\nclass = 0", fillcolor="#efb488"] ;
+1 [label="entropy = 0.0\nsamples = 395\nvalue = [395, 0, 0, 0]\nclass = 0", fillcolor="#e58139"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="persons <= 1.5\nentropy = 1.507\nsamples = 814\nvalue = [439, 274, 51, 50]\nclass = 0", fillcolor="#f7d8c2"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="entropy = 0.0\nsamples = 258\nvalue = [258, 0, 0, 0]\nclass = 0", fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label="buying <= 2.5\nentropy = 1.659\nsamples = 556\nvalue = [181, 274, 51, 50]\nclass = 1", fillcolor="#d1f9ce"] ;
+2 -> 4 ;
+5 [label="maint <= 1.5\nentropy = 0.994\nsamples = 269\nvalue = [147, 122, 0, 0]\nclass = 0", fillcolor="#fbeadd"] ;
+4 -> 5 ;
+6 [label="entropy = 0.0\nsamples = 73\nvalue = [73, 0, 0, 0]\nclass = 0", fillcolor="#e58139"] ;
+5 -> 6 ;
+7 [label="entropy = 0.956\nsamples = 196\nvalue = [74, 122, 0, 0]\nclass = 1", fillcolor="#b7f5b1"] ;
+5 -> 7 ;
+8 [label="maint <= 2.5\nentropy = 1.732\nsamples = 287\nvalue = [34, 152, 51, 50]\nclass = 1", fillcolor="#b0f4aa"] ;
+4 -> 8 ;
+9 [label="entropy = 1.035\nsamples = 139\nvalue = [27, 103, 0, 9]\nclass = 1", fillcolor="#82ed79"] ;
+8 -> 9 ;
+10 [label="entropy = 1.779\nsamples = 148\nvalue = [7, 49, 51, 41]\nclass = 2", fillcolor="#fbfdfe"] ;
+8 -> 10 ;
+}

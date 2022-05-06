@@ -1,0 +1,43 @@
+.idea/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+SMMLF
+cmake_install.cmake
+mnist/
+output/
+cmake-build-debug/
+*.count
+# *.level
+build/
+
+
+# executable files
+DT
+DT_MPC
+createNG
+evalNG
+evalPW
+evalPW_mpc
+omen
+testIO
+kv_statistics
+test_factory
+*.pdf
+test*.
+genperm_func
+log_func
+secgetper_func
+shuffledata_func
+test_genperm
+test_log
+test_secgetper
+test_shuffledata
+
+.vscode/
+
+# datasets
+datasets/
+kv_statics/kv_data/app_events.csv.zip
+kv_statics/kv_data/test_priv.config
+kv_statics/kv_data/test_priv.txt
